@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture</title>
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    width: 100vh;
+    background: rgb(237, 237, 225);
+    font-family: sans-serif;
+}
+nav {
+    height: 10vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5%;
+    background: black;
+}
+nav .menu {
+    font-size: 1.5em;
+    padding: 5%;
+}
+.logos {
+    padding-right: 5vw;
+}
+img {
+    height: 3.4vh;
+    width: 2vw;
+    background: white;
+    border-radius: 50%;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+main div {
+    border-right:1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 25%;
+}
+.red {
+    color: red;
+}
+.big {
+    font-size: 3em;
+}
+</style>
+</head>
+<body>
+    
+<nav>
+    <div class="menu">
+        <a>Home</a>
+        <a>About us</a>
+        <a>Portfolio</a>
+        <a>Offer</a>
+        <a>Contact</a>
+    </div>
+    <div class="logos">
+        <img src="fb.png" />
+        <img src="instagram.png" />
+        <img src="pinterest.png" />
+    </div>
+</nav>
+
+<main>
+    <div>
+        <span class="red">01</span>
+        <span class="big">Exterior</span>
+    </div>
+    <div>
+        <span class="red">02</span>
+        <span class="big">Interior</span>
+    </div>
+    <div>
+        <span class="red">03</span>
+        <span class="big">Furniture</span>
+    </div>
+    <div>
+        <span class="red">04</span>
+        <span class="big">3D Modelling</span>
+    </div>
+</main>
+</body>
+</html>
